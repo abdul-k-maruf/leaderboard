@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(244, 242, 255);
+    font-family: "poppins";
+    font-weight: 500;
+}
+main{
+    max-width: 900px;
+}
+.container{
+    
+    background-color: white;
+}
+
+.author a{
+    text-decoration: none;
+}
+
+.review i {
+    color: gold;
+    font-size: 12px;
+}
+
+.time i{
+    
+    font-size: 12px;
+}
+
+.time{
+    background-color: rgb(253, 206, 214);
+    padding: 4px;
+}
+
+
+
+Default: Mobile
+.responsive-fs {
+  font-size: 1rem; /* fs-6 */
+}
+
+/* Tablet (≥768px, Bootstrap md breakpoint) */
+@media (min-width: 768px) {
+  .responsive-fs {
+    font-size: 1.25rem; /* fs-5 equivalent */
+  }
+}
+
+/* Laptop/Desktop (≥992px, Bootstrap lg breakpoint) */
+@media (min-width: 992px) {
+  .responsive-fs {
+    font-size: 1.5rem; /* fs-4 equivalent */
+  }
+}
